@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GDP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="6222"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="whU-kD-4QL">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="6222"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="gdp-logo" translatesAutoresizingMaskIntoConstraints="NO" id="JLR-L4-0GR">
+                                        <rect key="frame" x="67" y="8" width="280" height="229"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="229" id="yJd-nJ-zTR"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="community" translatesAutoresizingMaskIntoConstraints="NO" id="xfP-KI-P90">
+                                        <rect key="frame" x="88" y="332" width="247" height="238"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="commerce" translatesAutoresizingMaskIntoConstraints="NO" id="YrM-bo-3kS">
+                                        <rect key="frame" x="47" y="662" width="320" height="976"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Media" translatesAutoresizingMaskIntoConstraints="NO" id="x9w-do-ccj">
+                                        <rect key="frame" x="45" y="1734" width="331" height="1564"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="solution" translatesAutoresizingMaskIntoConstraints="NO" id="Cuv-DL-U0n">
+                                        <rect key="frame" x="39" y="3411" width="345" height="2385"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="© 2019 GDP Venture" translatesAutoresizingMaskIntoConstraints="NO" id="mkI-2E-nnY">
+                                        <rect key="frame" x="121" y="5861" width="178" height="19"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="JLR-L4-0GR" secondAttribute="bottom" constant="5436" id="5R3-9M-V6O"/>
+                                    <constraint firstItem="JLR-L4-0GR" firstAttribute="top" secondItem="whU-kD-4QL" secondAttribute="top" constant="50" id="7rd-y4-1a9"/>
+                                    <constraint firstItem="JLR-L4-0GR" firstAttribute="leading" secondItem="whU-kD-4QL" secondAttribute="leading" constant="67" id="H37-zu-EgZ"/>
+                                    <constraint firstItem="JLR-L4-0GR" firstAttribute="centerX" secondItem="whU-kD-4QL" secondAttribute="centerX" id="bkQ-Dx-rsA"/>
+                                    <constraint firstAttribute="trailing" secondItem="JLR-L4-0GR" secondAttribute="trailing" constant="67" id="xs4-cj-vkj"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="whU-kD-4QL" secondAttribute="bottom" id="9uM-Gq-2jb"/>
+                            <constraint firstItem="whU-kD-4QL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="DtM-M8-IoU"/>
+                            <constraint firstItem="whU-kD-4QL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ek4-Tu-taA"/>
+                            <constraint firstAttribute="bottom" secondItem="whU-kD-4QL" secondAttribute="bottom" id="NZ6-01-Fxa"/>
+                            <constraint firstItem="whU-kD-4QL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Plm-a3-Vo4"/>
+                            <constraint firstAttribute="trailing" secondItem="whU-kD-4QL" secondAttribute="trailing" id="djX-Qx-29q"/>
+                            <constraint firstItem="whU-kD-4QL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="uj8-Yu-A8I"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="6222"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.089285714285712"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Media" width="224" height="1537"/>
+        <image name="commerce" width="266" height="884"/>
+        <image name="community" width="219" height="185"/>
+        <image name="gdp-logo" width="82" height="58"/>
+        <image name="solution" width="272" height="2348"/>
+        <image name="© 2019 GDP Venture" width="173" height="14"/>
+    </resources>
+</document>
